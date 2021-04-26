@@ -53,8 +53,35 @@ object InitProcess {
      * Spark entry point
      */
     var sc: SparkContext = spark.sparkContext
-
     println("Se ha creado satisfactoriamente el proyecto Demo de CUT")
+
+    // parsing the arguments
+    val parser = new scopt.OptionParser[Config]("Ingestion CUT") {
+      head("Ingestion CUT", "1.0", "Allow to make the ingestion from a csv file to hive table")
+      opt[String]('i', "pathInput") required() action { (x, c) =>
+        c.copy(pathInput = x)
+      } text "pathInput is the path from the csv file"
+      opt[String]('d', "delimiter") required() action { (x, c) =>
+        c.copy(delimiter = x)
+      } text "delimiter of the table ex (, \t, -) "
+      opt[String]('o', "pathOutput") required() action { (x, c) =>
+        c.copy(pathOutput = x)
+      } text "Path destiny from parquet data"
+      opt[String]('p', "partitionId") required() action { (x, c) =>
+        c.copy(partitionId = x)
+      } text "Column Id partition"
+      opt[String]('f', "pathFinish") action { (x, c) =>
+        c.copy(pathFinish = x)
+      } text "path file finish process"
+      opt[String]('h', "rulesHomologation") action { (x, c) =>
+        c.copy(rulesHomologation = x)
+      } text ("rulesHomologation: Tabla de homologación")
+      help("help").text("prints this usage text")
+    }
+
+
+
+
 
 
   }
