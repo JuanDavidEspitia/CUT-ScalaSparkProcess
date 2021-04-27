@@ -79,6 +79,41 @@ object InitProcess {
       help("help").text("prints this usage text")
     }
 
+    /**
+     * Parser arguments, really similar to constructor method in Java
+     * charge Arguments
+     */
+    parser.parse(args, Config()) map { config =>
+      pathInput = config.pathInput
+      delimiter = config.delimiter
+      pathOutput = config.pathOutput
+      partitionId = config.partitionId
+      pathFinish = config.pathFinish
+      rulesHomologation = config.rulesHomologation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
 
 
 
