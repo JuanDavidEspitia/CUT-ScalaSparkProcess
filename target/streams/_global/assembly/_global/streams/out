@@ -5,7 +5,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mMerging files...[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
 [0m[[0m[0minfo[0m] [0m[0mStrategy 'discard' was applied to a file (Run the task at debug level to see details)[0m
-[0m[[0m[0mdebug[0m] [0m[0mSHA-1: ec35fd61abcea7630fa2a68dacb6f3ab5b5802c6[0m
+[0m[[0m[0mdebug[0m] [0m[0mSHA-1: 380be7a2f6ab02b5b33b57723f762dd793444cc3[0m
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /home/adseglocdom/github/CUT-ScalaSparkProcess/target/scala-2.11/CUT-Process-assembly-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	library.properties[0m
@@ -28,10 +28,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/58841d9a310e9e6b709e723c7eae16716b53ac7e_dir/net/bdb/cut/InitProcess$$anon$1$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net/bdb/cut/InitProcess$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/58841d9a310e9e6b709e723c7eae16716b53ac7e_dir/net/bdb/cut/InitProcess$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net/bdb/cut/InitProcess$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/58841d9a310e9e6b709e723c7eae16716b53ac7e_dir/net/bdb/cut/InitProcess$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net/bdb/cut/InitProcess$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/58841d9a310e9e6b709e723c7eae16716b53ac7e_dir/net/bdb/cut/InitProcess$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net/bdb/cut/InitProcess.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/58841d9a310e9e6b709e723c7eae16716b53ac7e_dir/net/bdb/cut/InitProcess.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net/bdb/cut/Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/58841d9a310e9e6b709e723c7eae16716b53ac7e_dir/net/bdb/cut/Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net/bdb/cut/Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/58841d9a310e9e6b709e723c7eae16716b53ac7e_dir/net/bdb/cut/Utils.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	rootdoc.txt[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/adseglocdom/github/CUT-ScalaSparkProcess/target/streams/_global/assemblyOption/_global/streams/assembly/468b61e7438aded78bebc28d0ab4e532258d06fb_bf5534e6fec3d665bd6419c952a929a8bdd4b591_da39a3ee5e6b4b0d3255bfef95601890afd80709/rootdoc.txt[0m
 [0m[[0m[0mdebug[0m] [0m[0m	scala/AnyVal.class[0m

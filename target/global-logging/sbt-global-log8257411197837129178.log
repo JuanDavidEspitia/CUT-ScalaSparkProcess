@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;clean ;compile ;assembly, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(clean, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: clean[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 27/04/2021 08:17:14 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/adseglocdom/github/CUT-ScalaSparkProcess/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 18 s, completed 27/04/2021 08:17:32 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(assembly, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: assembly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mStrategy 'discard' was applied to a file (Run the task at debug level to see details)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed 27/04/2021 08:17:34 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -6,6 +6,9 @@ import org.apache.spark.sql.{Column, DataFrame, Encoders, Row, SparkSession, typ
 import org.apache.log4j.{Level, Logger}
 import java.net.URL
 
+import Utils._
+
+
 case class Config (pathInput: String = null, delimiter: String = null, pathOutput: String = null,
                   partitionId: String = null, pathFinish: String = null, rulesHomologation: String = null)
 
@@ -41,7 +44,13 @@ object InitProcess {
   var dfTransaction: DataFrame = spark.emptyDataFrame
   var dfCatalog: DataFrame = spark.emptyDataFrame
 
+  // Init Bitacora
 
+
+  /**
+   * Method Main of the class, Execute the process
+   * @param args
+   */
   def main(args: Array[String]): Unit = {
     //avoid some messages of spark
     Logger.getLogger("Ingestion").setLevel(Level.INFO)
@@ -83,13 +92,23 @@ object InitProcess {
      * Parser arguments, really similar to constructor method in Java
      * charge Arguments
      */
-    parser.parse(args, Config()) map { config =>
+    parser.parse(args, Config()) foreach { config =>
       pathInput = config.pathInput
       delimiter = config.delimiter
       pathOutput = config.pathOutput
       partitionId = config.partitionId
       pathFinish = config.pathFinish
       rulesHomologation = config.rulesHomologation
+
+      val arg: String = "Arguments used are: \n" +
+        "Path Input: " + pathInput + "\n" +
+        "Delimiter: " + delimiter + "\n" +
+        "Path Output: " + pathOutput + "\n" +
+        "Partition ID: " + partitionId + "\n" +
+        "path Finish: " + pathFinish + "\n" +
+        "Rules Homologation: " + rulesHomologation
+
+      printInfo(arg)
 
 
 
