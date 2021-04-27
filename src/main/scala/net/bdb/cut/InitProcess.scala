@@ -40,7 +40,7 @@ object InitProcess {
   /**
    * DataFrames Globales
    */
-  var dfInputTXT: DataFrame = spark.emptyDataFrame
+
   var dfTransaction: DataFrame = spark.emptyDataFrame
   var dfCatalog: DataFrame = spark.emptyDataFrame
 
@@ -107,8 +107,12 @@ object InitProcess {
         "Partition ID: " + partitionId + "\n" +
         "path Finish: " + pathFinish + "\n" +
         "Rules Homologation: " + rulesHomologation
-
       printInfo(arg)
+
+
+
+
+
 
 
 
